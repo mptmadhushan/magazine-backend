@@ -21,6 +21,7 @@ db.sequelize = sequelize;
 
 db.posts = require("./posts.model")(sequelize, Sequelize);
 db.comments = require("./comments.model")(sequelize, Sequelize);
+db.ads = require("./ads.model")(sequelize, Sequelize);
 
 db.posts.hasMany(db.comments, { as: "comments" });
 db.comments.belongsTo(db.posts, {
