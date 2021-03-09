@@ -13,6 +13,7 @@ exports.createPost = async (req, res) => {
     image1: req.files.image1[0].filename,
     image2: req.files.image2[0].filename,
     advertisement: req.files.advertisement[0].filename,
+    short_para: req.body.short_para,
     para1: req.body.para1,
     para2: req.body.para2,
     para3: req.body.para3,

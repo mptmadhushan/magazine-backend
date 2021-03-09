@@ -1,10 +1,13 @@
-const moment= require('moment') 
+const moment = require("moment");
 module.exports = (sequelize, DataTypes) => {
   const Post = sequelize.define("Post", {
     title: {
       type: DataTypes.STRING,
     },
     para1: {
+      type: DataTypes.STRING,
+    },
+    short_para: {
       type: DataTypes.STRING,
     },
     para2: {
