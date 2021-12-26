@@ -19,7 +19,7 @@ exports.mail = (req, res) => {
 
   var mailOptions = {
     from: "mail.cpg.info@gmail.com",
-    to: "sales@thesix.lk",
+    to: "sales@cpg.lk ",
     subject: subject,
     html: `<!doctype html>
       <html ⚡4email>
